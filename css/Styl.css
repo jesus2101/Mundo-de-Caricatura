@@ -1,0 +1,63 @@
+/*/////////IMAGEN ESTILOS ////////*/
+
+* {
+  margin:0;
+  padding:0;
+  font-family:Arial;
+}
+    
+.img{
+  width: 18.7rem;
+}
+
+div#imagen {
+  width: 305px;
+  height: 200px;
+  background-size: cover;
+    margin: 30px auto;
+  width: 18rem;
+}
+
+div#info {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(31, 31, 31, 0.8);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+div#imagen:hover div#info {
+  opacity:1;
+}
+
+p#headline {
+  position: absolute;
+  font-size: 1.0rem;
+  margin-left: 0px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+
+div#imagen:hover p#headline {
+  margin-left: 25px;
+  text-align: center;
+  color:#fff;
+}
+
+p#descripcion {
+  font-size: 1rem;
+  text-align: center;
+  color:#fff  ;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+div#imagen:hover p#descripcion {
+  margin-top: 75px;
+}
+/*
+img{
+    width: 18.7rem;
+}
